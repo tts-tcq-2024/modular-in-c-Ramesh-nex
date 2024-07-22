@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "Pair_Colours.h"
+#include "Pair_Colors.h"  /* Header file to include interfaces and declarations*/
 
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
@@ -12,6 +12,7 @@ const char* MinorColorNames[] = {
 };
 
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
+
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair->majorColor],
