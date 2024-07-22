@@ -33,6 +33,8 @@ int main() {
 
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
-
+    
+    printf("\nColor Coding Reference Manual:\n");
+    PrintReferenceManual();
     return 0;
 }
