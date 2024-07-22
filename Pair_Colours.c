@@ -1,3 +1,5 @@
+#include "Pair_Colours.h"
+
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
