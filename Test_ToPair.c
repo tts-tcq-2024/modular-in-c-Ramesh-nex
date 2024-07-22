@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h> 
-#include "Pair_Colours.h"
+#include "Pair_Colors.h"
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
 
